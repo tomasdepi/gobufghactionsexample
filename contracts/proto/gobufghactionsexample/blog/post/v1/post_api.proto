@@ -13,6 +13,7 @@ service PostService {
 message CreateRequest {
   string title = 1;
   string author = 2;
+  string album = 3;
 }
 
 message CreateResponse {
